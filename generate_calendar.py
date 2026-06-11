@@ -34,6 +34,28 @@ XIU_DICT = {
     "轸": "轸水蚓 (吉)"
 }
 
+PROMOTED_FESTIVALS = {
+    "万圣节",
+    "平安夜",
+    "白色情人节",
+    "世界地球日",
+    "世界环境日",
+    "世界睡眠日",
+    "世界读书日",
+    "世界水日",
+    "世界无烟日",
+    "世界红十字日",
+    "世界艾滋病日",
+    "世界粮食日",
+    "世界人口日",
+    "世界青年节",
+    "世界儿童日",
+    "世界残疾人日",
+    "程序员节",
+    "光棍节",
+    "女生节",
+}
+
 def generate_ics():
     # Define range: previous, current, next year
     current_year = datetime.datetime.now().year
@@ -58,6 +80,12 @@ def generate_ics():
         jieqi = lunar.getJieQi()
         main_festivals = lunar.getFestivals() + solar.getFestivals()
         
+        # Promote key international/other festivals to the title
+        promoted = []
+        for f in lunar.getOtherFestivals() + solar.getOtherFestivals():
+            if f in PROMOTED_FESTIVALS and f not in main_festivals:
+                promoted.append(f)
+        
         # Title
         lunar_date_str = f"农历{lunar.getMonthInChinese()}月{lunar.getDayInChinese()}"
         title_parts = [lunar_date_str]
@@ -65,6 +93,8 @@ def generate_ics():
             title_parts.append(jieqi)
         if main_festivals:
             title_parts.extend(main_festivals)
+        if promoted:
+            title_parts.extend(promoted)
         title = " · ".join(title_parts)
 
         # Description construction

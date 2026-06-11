@@ -1357,7 +1357,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 己卯(兔)月 甲戌(狗)
  凶神宜忌：月煞、月虚、四击、天牢
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月初八
+SUMMARY:农历二月初八 · 女生节
 DTSTART;VALUE=DATE:20250307
 DTEND;VALUE=DATE:20250308
 UID:lunar-huangli-20250307@github.com
@@ -1505,7 +1505,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 己卯(兔)月 辛巳(蛇)
   凶神宜忌：五虚、土符、大煞、往亡、重日、朱雀
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月十五
+SUMMARY:农历二月十五 · 白色情人节
 DTSTART;VALUE=DATE:20250314
 DTEND;VALUE=DATE:20250315
 UID:lunar-huangli-20250314@github.com
@@ -1653,7 +1653,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 己卯(兔)月 戊子(鼠)
  、大败、咸池、天贼
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月廿二
+SUMMARY:农历二月廿二 · 世界睡眠日
 DTSTART;VALUE=DATE:20250321
 DTEND;VALUE=DATE:20250322
 UID:lunar-huangli-20250321@github.com
@@ -1675,7 +1675,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 己卯(兔)月 己丑(牛)
  坎、九焦、勾陈
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月廿三
+SUMMARY:农历二月廿三 · 世界水日
 DTSTART;VALUE=DATE:20250322
 DTEND;VALUE=DATE:20250323
 UID:lunar-huangli-20250322@github.com
@@ -2315,7 +2315,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 庚辰(龙)月 庚申(猴)
  亡、五离、八专、孤辰、阴错
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历三月廿五
+SUMMARY:农历三月廿五 · 世界地球日
 DTSTART;VALUE=DATE:20250422
 DTEND;VALUE=DATE:20250423
 UID:lunar-huangli-20250422@github.com
@@ -2337,7 +2337,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 庚辰(龙)月 辛酉(鸡)
  虚、土符、五离
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历三月廿六
+SUMMARY:农历三月廿六 · 世界读书日
 DTSTART;VALUE=DATE:20250423
 DTEND;VALUE=DATE:20250424
 UID:lunar-huangli-20250423@github.com
@@ -2649,7 +2649,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 辛巳(蛇)月 丙子(鼠)
  水龙、白虎
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历四月十一
+SUMMARY:农历四月十一 · 世界红十字日
 DTSTART;VALUE=DATE:20250508
 DTEND;VALUE=DATE:20250509
 UID:lunar-huangli-20250508@github.com
@@ -3134,7 +3134,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 辛巳(蛇)月 己亥(猪)
  ⚠️ 凶神宜忌：月破、大耗、往亡、重日
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月初五 · 端午节
+SUMMARY:农历五月初五 · 端午节 · 世界无烟日
 DTSTART;VALUE=DATE:20250531
 DTEND;VALUE=DATE:20250601
 UID:lunar-huangli-20250531@github.com
@@ -3241,7 +3241,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 辛巳(蛇)月 甲辰(龙)
  ：月煞、月虚、血支、五虚、八风
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月初十 · 芒种
+SUMMARY:农历五月初十 · 芒种 · 世界环境日
 DTSTART;VALUE=DATE:20250605
 DTEND;VALUE=DATE:20250606
 UID:lunar-huangli-20250605@github.com
@@ -3992,7 +3992,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 癸未(羊)月 庚辰(龙)
  宜忌：天罡、五虚、白虎
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月十七
+SUMMARY:农历六月十七 · 世界人口日
 DTSTART;VALUE=DATE:20250711
 DTEND;VALUE=DATE:20250712
 UID:lunar-huangli-20250711@github.com
@@ -6023,7 +6023,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 丙戌(狗)月 丁巳(蛇)
  宜忌：游祸、天贼、血忌、重日
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历八月廿五
+SUMMARY:农历八月廿五 · 世界粮食日
 DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20251017
 UID:lunar-huangli-20251016@github.com
@@ -6191,7 +6191,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 丙戌(狗)月 乙丑(牛)
  忌：天罡、死神、月煞、月虚、元武
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历九月初四
+SUMMARY:农历九月初四 · 程序员节
 DTSTART;VALUE=DATE:20251024
 DTEND;VALUE=DATE:20251025
 UID:lunar-huangli-20251024@github.com
@@ -6569,7 +6569,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 丁亥(猪)月 癸未(羊)
  凶神宜忌：厌对、招摇、四击、往亡、触水龙
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历九月廿二
+SUMMARY:农历九月廿二 · 光棍节
 DTSTART;VALUE=DATE:20251111
 DTEND;VALUE=DATE:20251112
 UID:lunar-huangli-20251111@github.com
@@ -6992,7 +6992,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 丁亥(猪)月 癸卯(兔)
  、元武
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月十二
+SUMMARY:农历十月十二 · 世界艾滋病日
 DTSTART;VALUE=DATE:20251201
 DTEND;VALUE=DATE:20251202
 UID:lunar-huangli-20251201@github.com
@@ -7033,7 +7033,7 @@ DESCRIPTION:📅 农历日期：乙巳(蛇)年 丁亥(猪)月 乙巳(蛇)
  ⚠️ 凶神宜忌：月破、大耗、重日、勾陈
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月十四
+SUMMARY:农历十月十四 · 世界残疾人日
 DTSTART;VALUE=DATE:20251203
 DTEND;VALUE=DATE:20251204
 UID:lunar-huangli-20251203@github.com
@@ -9002,7 +9002,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 辛卯(兔)月 己卯(兔)
  厌对、招摇、小会
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历正月十九
+SUMMARY:农历正月十九 · 女生节
 DTSTART;VALUE=DATE:20260307
 DTEND;VALUE=DATE:20260308
 UID:lunar-huangli-20260307@github.com
@@ -9149,7 +9149,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 辛卯(兔)月 丙戌(狗)
  煞、月虚、四击、天牢
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历正月廿六
+SUMMARY:农历正月廿六 · 白色情人节
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 UID:lunar-huangli-20260314@github.com
@@ -9298,7 +9298,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 辛卯(兔)月 癸巳(蛇)
  神宜忌：五虚、土符、大煞、往亡、重日、朱雀
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月初三
+SUMMARY:农历二月初三 · 世界睡眠日
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 UID:lunar-huangli-20260321@github.com
@@ -9320,7 +9320,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 辛卯(兔)月 甲午(马)
  、致死
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月初四
+SUMMARY:农历二月初四 · 世界水日
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 UID:lunar-huangli-20260322@github.com
@@ -9958,7 +9958,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 壬辰(龙)月 乙丑(牛)
  ：河魁、五虚、元武
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历三月初六
+SUMMARY:农历三月初六 · 世界地球日
 DTSTART;VALUE=DATE:20260422
 DTEND;VALUE=DATE:20260423
 UID:lunar-huangli-20260422@github.com
@@ -9981,7 +9981,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 壬辰(龙)月 丙寅(虎)
  忌：厌对、招摇、血忌
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历三月初七
+SUMMARY:农历三月初七 · 世界读书日
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 UID:lunar-huangli-20260423@github.com
@@ -10294,7 +10294,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 癸巳(蛇)月 辛巳(蛇)
  、土府、重日、勾陈
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历三月廿二
+SUMMARY:农历三月廿二 · 世界红十字日
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 UID:lunar-huangli-20260508@github.com
@@ -10785,7 +10785,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 癸巳(蛇)月 甲辰(龙)
  五虚、八风
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历四月十五
+SUMMARY:农历四月十五 · 世界无烟日
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 UID:lunar-huangli-20260531@github.com
@@ -10890,7 +10890,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 癸巳(蛇)月 己酉(鸡)
  离、朱雀
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历四月二十 · 芒种
+SUMMARY:农历四月二十 · 芒种 · 世界环境日
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 UID:lunar-huangli-20260605@github.com
@@ -11644,7 +11644,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 乙酉(鸡)
   凶神宜忌：灾煞、天火、血忌、五离、勾陈
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月廿七
+SUMMARY:农历五月廿七 · 世界人口日
 DTSTART;VALUE=DATE:20260711
 DTEND;VALUE=DATE:20260712
 UID:lunar-huangli-20260711@github.com
@@ -13681,7 +13681,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 戊戌(狗)月 壬戌(狗)
  、小时、土府、白虎
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历九月初七
+SUMMARY:农历九月初七 · 世界粮食日
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 UID:lunar-huangli-20261016@github.com
@@ -13851,7 +13851,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 戊戌(狗)月 庚午(马)
   凶神宜忌：天刑
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历九月十五
+SUMMARY:农历九月十五 · 程序员节
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 UID:lunar-huangli-20261024@github.com
@@ -14224,7 +14224,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 戊子(鼠)
  虎、岁薄
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月初三
+SUMMARY:农历十月初三 · 光棍节
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 UID:lunar-huangli-20261111@github.com
@@ -14646,7 +14646,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 戊申(猴)
  地囊、五离、天刑
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿三
+SUMMARY:农历十月廿三 · 世界艾滋病日
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 UID:lunar-huangli-20261201@github.com
@@ -14689,7 +14689,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 庚戌(狗)
  、五虚
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿五
+SUMMARY:农历十月廿五 · 世界残疾人日
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 UID:lunar-huangli-20261203@github.com
@@ -16660,7 +16660,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 癸卯(兔)月 甲申(猴)
  ：劫煞、小耗、五离、白虎
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历正月三十
+SUMMARY:农历正月三十 · 女生节
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 UID:lunar-huangli-20270307@github.com
@@ -16807,7 +16807,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 癸卯(兔)月 辛卯(兔)
  建、小时、土府、厌对、招摇
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月初七
+SUMMARY:农历二月初七 · 白色情人节
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 UID:lunar-huangli-20270314@github.com
@@ -16952,7 +16952,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 癸卯(兔)月 戊戌(狗)
  神宜忌：月煞、月虚、四击、天牢
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月十四 · 春分
+SUMMARY:农历二月十四 · 春分 · 世界睡眠日
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 UID:lunar-huangli-20270321@github.com
@@ -16974,7 +16974,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 癸卯(兔)月 己亥(猪)
  喜、天医、不将\n⚠️ 凶神宜忌：重日、元武
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历二月十五
+SUMMARY:农历二月十五 · 世界水日
 DTSTART;VALUE=DATE:20270322
 DTEND;VALUE=DATE:20270323
 UID:lunar-huangli-20270322@github.com
@@ -17619,7 +17619,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 甲辰(龙)月 庚午(马)
  神宜忌：灾煞、天火、大煞、天刑
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历三月十六
+SUMMARY:农历三月十六 · 世界地球日
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 UID:lunar-huangli-20270422@github.com
@@ -17639,7 +17639,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 甲辰(龙)月 辛未(羊)
  、月煞、朱雀
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历三月十七
+SUMMARY:农历三月十七 · 世界读书日
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 UID:lunar-huangli-20270423@github.com
@@ -17954,7 +17954,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 乙巳(蛇)月 丙戌(狗)
  凶神宜忌：小耗、天贼、五墓、复日
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历四月初三
+SUMMARY:农历四月初三 · 世界红十字日
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 UID:lunar-huangli-20270508@github.com
@@ -18441,7 +18441,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 乙巳(蛇)月 己酉(鸡)
  吠\n⚠️ 凶神宜忌：死气、地囊、五离、朱雀
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历四月廿六
+SUMMARY:农历四月廿六 · 世界无烟日
 DTSTART;VALUE=DATE:20270531
 DTEND;VALUE=DATE:20270601
 UID:lunar-huangli-20270531@github.com
@@ -18544,7 +18544,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 乙巳(蛇)月 甲寅(虎)
  月害、土符、八专、天牢
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月初一
+SUMMARY:农历五月初一 · 世界环境日
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 UID:lunar-huangli-20270605@github.com
@@ -19305,7 +19305,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 丁未(羊)月 庚寅(虎)
  金匮、鸣吠对\n⚠️ 凶神宜忌：游祸
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月初八
+SUMMARY:农历六月初八 · 世界人口日
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 UID:lunar-huangli-20270711@github.com
@@ -21353,7 +21353,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 庚戌(狗)月 丁卯(兔)
  宜忌：大时、大败、咸池、小耗、五虚、勾陈
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历九月十七
+SUMMARY:农历九月十七 · 世界粮食日
 DTSTART;VALUE=DATE:20271016
 DTEND;VALUE=DATE:20271017
 UID:lunar-huangli-20271016@github.com
@@ -21523,7 +21523,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 庚戌(狗)月 乙亥(猪)
  \n⚠️ 凶神宜忌：劫煞、五虚、土符、重日
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历九月廿五
+SUMMARY:农历九月廿五 · 程序员节
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 UID:lunar-huangli-20271024@github.com
@@ -21897,7 +21897,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 辛亥(猪)月 癸巳(蛇)
  \n⚠️ 凶神宜忌：月破、大耗、重日、勾陈
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月十四
+SUMMARY:农历十月十四 · 光棍节
 DTSTART;VALUE=DATE:20271111
 DTEND;VALUE=DATE:20271112
 UID:lunar-huangli-20271111@github.com
@@ -22321,7 +22321,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 辛亥(猪)月 癸丑(牛)
  戾、阴错
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历冬月初四
+SUMMARY:农历冬月初四 · 世界艾滋病日
 DTSTART;VALUE=DATE:20271201
 DTEND;VALUE=DATE:20271202
 UID:lunar-huangli-20271201@github.com
@@ -22367,7 +22367,7 @@ DESCRIPTION:📅 农历日期：丁未(羊)年 辛亥(猪)月 乙卯(兔)
  元武
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历冬月初六
+SUMMARY:农历冬月初六 · 世界残疾人日
 DTSTART;VALUE=DATE:20271203
 DTEND;VALUE=DATE:20271204
 UID:lunar-huangli-20271203@github.com
