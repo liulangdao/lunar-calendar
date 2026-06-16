@@ -58,61 +58,66 @@ PROMOTED_FESTIVALS = {
     "女生节",
 }
 
-# Weather code -> Chinese description mapping
+# WMO weather code -> Chinese description (used by Open-Meteo)
 WEATHER_CODE_ZH = {
-    113: "晴", 116: "局部多云", 119: "多云", 122: "阴",
-    143: "薄雾", 176: "局部阵雨", 179: "局部阵雪", 182: "局部冰粒",
-    185: "局部冻毛毛雨", 200: "局部雷阵雨", 227: "局部飘雪", 230: "暴雪",
-    248: "雾", 260: "冻雾", 263: "轻微毛毛雨", 266: "毛毛雨",
-    281: "冻毛毛雨", 284: "大冻毛毛雨", 293: "局部小雨", 296: "小雨",
-    299: "时而中雨", 302: "中雨", 305: "时而大雨", 308: "大雨",
-    311: "轻冻雨", 314: "中冻雨", 317: "轻冰粒", 320: "中冰粒",
-    323: "局部轻雪", 326: "局部小雪", 329: "局部中雪", 332: "中雪",
-    335: "局部大雪", 338: "大雪", 350: "冰粒", 353: "小阵雨",
-    356: "中到大阵雨", 359: "暴雨", 362: "轻到中阵冰粒", 365: "中到大阵冰粒",
-    368: "小阵雪", 371: "中到大阵雪", 374: "轻到中阵冰粒", 377: "中到大阵冰粒",
-    386: "局部雷阵雨", 389: "中到大雷暴雨", 392: "局部雷雪", 395: "中到大雷雪",
+    0: "晴",
+    1: "基本晴", 2: "局部多云", 3: "阴",
+    45: "雾", 48: "冻雾",
+    51: "小毛毛雨", 53: "中毛毛雨", 55: "大毛毛雨",
+    56: "轻冻毛毛雨", 57: "重冻毛毛雨",
+    61: "小雨", 63: "中雨", 65: "大雨",
+    66: "轻冻雨", 67: "重冻雨",
+    71: "小雪", 73: "中雪", 75: "大雪", 77: "雪粒",
+    80: "小阵雨", 81: "中阵雨", 82: "强阵雨",
+    85: "小阵雪", 86: "大阵雪",
+    95: "雷暴", 96: "雷暴伴小冰雹", 99: "雷暴伴大冰雹",
 }
 
-WIND_DIR_ZH = {
-    "N": "北", "NNE": "北偏东", "NE": "东北", "ENE": "东偏北",
-    "E": "东", "ESE": "东偏南", "SE": "东南", "SSE": "南偏东",
-    "S": "南", "SSW": "南偏西", "SW": "西南", "WSW": "西偏南",
-    "W": "西", "WNW": "西偏北", "NW": "西北", "NNW": "北偏西",
-}
+
+def _deg_to_zh(deg):
+    """Convert wind direction in degrees to Chinese compass label."""
+    dirs = ["北", "北偏东", "东北", "东偏北",
+            "东", "东偏南", "东南", "南偏东",
+            "南", "南偏西", "西南", "西偏南",
+            "西", "西偏北", "西北", "北偏西"]
+    idx = round(deg / 22.5) % 16
+    return dirs[idx]
 
 
 def fetch_lishui_weather():
-    """Fetch 3-day weather forecast for Lishui from wttr.in (no API key required).
+    """Fetch 16-day weather forecast for Lishui from Open-Meteo (free, no API key).
     Returns a dict mapping date string (YYYY-MM-DD) to weather info, or empty dict on failure.
+    Lishui, Zhejiang: 28.4568°N, 119.9228°E
     """
-    url = "https://wttr.in/%E4%B8%BD%E6%B0%B4,Zhejiang?format=j1"
+    url = (
+        "https://api.open-meteo.com/v1/forecast"
+        "?latitude=28.4568&longitude=119.9228"
+        "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max"
+        ",weathercode,windspeed_10m_max,winddirection_10m_dominant"
+        "&timezone=Asia%2FShanghai&forecast_days=16"
+    )
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "curl/7.68.0"})
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = json.loads(resp.read().decode("utf-8"))
+        daily = data["daily"]
         weather_map = {}
-        for day in data.get("weather", []):
-            day_date = day["date"]  # "YYYY-MM-DD"
-            min_c = day["mintempC"]
-            max_c = day["maxtempC"]
-            # Pick midday (time=1200) hourly slot for representative description
-            hourly = day.get("hourly", [])
-            mid_slot = next((h for h in hourly if h["time"] == "1200"), hourly[4] if len(hourly) > 4 else hourly[0] if hourly else {})
-            code = int(mid_slot.get("weatherCode", 113))
-            desc_zh = WEATHER_CODE_ZH.get(code, mid_slot.get("weatherDesc", [{}])[0].get("value", ""))
-            humidity = mid_slot.get("humidity", "")
-            wind_dir = WIND_DIR_ZH.get(mid_slot.get("winddir16Point", ""), mid_slot.get("winddir16Point", ""))
-            wind_speed = mid_slot.get("windspeedKmph", "")
-            rain_chance = mid_slot.get("chanceofrain", "0")
+        for i, day_date in enumerate(daily["time"]):
+            code = int(daily["weathercode"][i] or 0)
+            desc_zh = WEATHER_CODE_ZH.get(code, f"代码{code}")
+            min_c = round(daily["temperature_2m_min"][i] or 0)
+            max_c = round(daily["temperature_2m_max"][i] or 0)
+            rain_chance = int(daily["precipitation_probability_max"][i] or 0)
+            wind_speed = round(daily["windspeed_10m_max"][i] or 0)
+            wind_deg = daily["winddirection_10m_dominant"][i] or 0
+            wind_dir = _deg_to_zh(wind_deg)
             weather_map[day_date] = {
                 "desc": desc_zh,
                 "min_c": min_c,
                 "max_c": max_c,
-                "humidity": humidity,
-                "wind_dir": wind_dir,
-                "wind_speed": wind_speed,
                 "rain_chance": rain_chance,
+                "wind_speed": wind_speed,
+                "wind_dir": wind_dir,
             }
         return weather_map
     except Exception as e:
@@ -122,7 +127,7 @@ def fetch_lishui_weather():
 
 def generate_ics():
     # Fetch Lishui weather forecast (covers today + next 2 days)
-    print("[天气] 正在获取丽水天气预报...")
+    print("[天气] 正在从 Open-Meteo 获取丽水16天天气预报...")
     weather_map = fetch_lishui_weather()
     if weather_map:
         print(f"[天气] 成功获取 {len(weather_map)} 天预报: {', '.join(sorted(weather_map.keys()))}")
@@ -241,7 +246,7 @@ def generate_ics():
             w = weather_map[date_str_key]
             desc_lines.append("")
             desc_lines.append(f"🌤️ 丽水天气：{w['desc']}  {w['min_c']}~{w['max_c']}°C")
-            desc_lines.append(f"💧 湿度：{w['humidity']}%　🌧️ 降雨概率：{w['rain_chance']}%")
+            desc_lines.append(f"🌧️ 降雨概率：{w['rain_chance']}%")
             desc_lines.append(f"💨 风向风速：{w['wind_dir']}风 {w['wind_speed']} km/h")
 
         # Description text
