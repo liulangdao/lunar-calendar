@@ -1,4 +1,6 @@
 import datetime
+import json
+import urllib.request
 from datetime import date, timedelta
 from lunar_python import Solar, Lunar
 from icalendar import Calendar, Event
@@ -56,7 +58,77 @@ PROMOTED_FESTIVALS = {
     "女生节",
 }
 
+# Weather code -> Chinese description mapping
+WEATHER_CODE_ZH = {
+    113: "晴", 116: "局部多云", 119: "多云", 122: "阴",
+    143: "薄雾", 176: "局部阵雨", 179: "局部阵雪", 182: "局部冰粒",
+    185: "局部冻毛毛雨", 200: "局部雷阵雨", 227: "局部飘雪", 230: "暴雪",
+    248: "雾", 260: "冻雾", 263: "轻微毛毛雨", 266: "毛毛雨",
+    281: "冻毛毛雨", 284: "大冻毛毛雨", 293: "局部小雨", 296: "小雨",
+    299: "时而中雨", 302: "中雨", 305: "时而大雨", 308: "大雨",
+    311: "轻冻雨", 314: "中冻雨", 317: "轻冰粒", 320: "中冰粒",
+    323: "局部轻雪", 326: "局部小雪", 329: "局部中雪", 332: "中雪",
+    335: "局部大雪", 338: "大雪", 350: "冰粒", 353: "小阵雨",
+    356: "中到大阵雨", 359: "暴雨", 362: "轻到中阵冰粒", 365: "中到大阵冰粒",
+    368: "小阵雪", 371: "中到大阵雪", 374: "轻到中阵冰粒", 377: "中到大阵冰粒",
+    386: "局部雷阵雨", 389: "中到大雷暴雨", 392: "局部雷雪", 395: "中到大雷雪",
+}
+
+WIND_DIR_ZH = {
+    "N": "北", "NNE": "北偏东", "NE": "东北", "ENE": "东偏北",
+    "E": "东", "ESE": "东偏南", "SE": "东南", "SSE": "南偏东",
+    "S": "南", "SSW": "南偏西", "SW": "西南", "WSW": "西偏南",
+    "W": "西", "WNW": "西偏北", "NW": "西北", "NNW": "北偏西",
+}
+
+
+def fetch_lishui_weather():
+    """Fetch 3-day weather forecast for Lishui from wttr.in (no API key required).
+    Returns a dict mapping date string (YYYY-MM-DD) to weather info, or empty dict on failure.
+    """
+    url = "https://wttr.in/%E4%B8%BD%E6%B0%B4,Zhejiang?format=j1"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "curl/7.68.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        weather_map = {}
+        for day in data.get("weather", []):
+            day_date = day["date"]  # "YYYY-MM-DD"
+            min_c = day["mintempC"]
+            max_c = day["maxtempC"]
+            # Pick midday (time=1200) hourly slot for representative description
+            hourly = day.get("hourly", [])
+            mid_slot = next((h for h in hourly if h["time"] == "1200"), hourly[4] if len(hourly) > 4 else hourly[0] if hourly else {})
+            code = int(mid_slot.get("weatherCode", 113))
+            desc_zh = WEATHER_CODE_ZH.get(code, mid_slot.get("weatherDesc", [{}])[0].get("value", ""))
+            humidity = mid_slot.get("humidity", "")
+            wind_dir = WIND_DIR_ZH.get(mid_slot.get("winddir16Point", ""), mid_slot.get("winddir16Point", ""))
+            wind_speed = mid_slot.get("windspeedKmph", "")
+            rain_chance = mid_slot.get("chanceofrain", "0")
+            weather_map[day_date] = {
+                "desc": desc_zh,
+                "min_c": min_c,
+                "max_c": max_c,
+                "humidity": humidity,
+                "wind_dir": wind_dir,
+                "wind_speed": wind_speed,
+                "rain_chance": rain_chance,
+            }
+        return weather_map
+    except Exception as e:
+        print(f"[天气] 获取丽水天气失败: {e}")
+        return {}
+
+
 def generate_ics():
+    # Fetch Lishui weather forecast (covers today + next 2 days)
+    print("[天气] 正在获取丽水天气预报...")
+    weather_map = fetch_lishui_weather()
+    if weather_map:
+        print(f"[天气] 成功获取 {len(weather_map)} 天预报: {', '.join(sorted(weather_map.keys()))}")
+    else:
+        print("[天气] 未能获取天气数据，将跳过天气信息。")
+
     # Define range: previous, current, next year
     current_year = datetime.datetime.now().year
     start_date = date(current_year - 1, 1, 1)
@@ -163,11 +235,29 @@ def generate_ics():
         desc_lines.append(f"✨ 吉神宜趋：{'、'.join(jishen) if jishen else '无'}")
         desc_lines.append(f"⚠️ 凶神宜忌：{'、'.join(xiongsha) if xiongsha else '无'}")
 
+        # 6. Lishui Weather (only for days with forecast data)
+        date_str_key = cur_date.strftime("%Y-%m-%d")
+        if date_str_key in weather_map:
+            w = weather_map[date_str_key]
+            desc_lines.append("")
+            desc_lines.append(f"🌤️ 丽水天气：{w['desc']}  {w['min_c']}~{w['max_c']}°C")
+            desc_lines.append(f"💧 湿度：{w['humidity']}%　🌧️ 降雨概率：{w['rain_chance']}%")
+            desc_lines.append(f"💨 风向风速：{w['wind_dir']}风 {w['wind_speed']} km/h")
+
         # Description text
         description = "\n".join(desc_lines)
 
         # Create Event
         event = Event()
+        # Add weather emoji to title for days with forecast
+        date_str_key = cur_date.strftime("%Y-%m-%d")
+        if date_str_key in weather_map:
+            w = weather_map[date_str_key]
+            weather_title = f"☁️{w['min_c']}~{w['max_c']}°C" if "云" in w['desc'] or "阴" in w['desc'] else \
+                            f"🌧️{w['min_c']}~{w['max_c']}°C" if any(k in w['desc'] for k in ["雨", "雪", "粒", "冻"]) else \
+                            f"⛅{w['min_c']}~{w['max_c']}°C" if "局部" in w['desc'] else \
+                            f"☀️{w['min_c']}~{w['max_c']}°C"
+            title = title + " | " + weather_title
         event.add('summary', title)
         event.add('description', description)
         event.add('dtstart', cur_date)

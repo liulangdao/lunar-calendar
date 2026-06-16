@@ -11121,7 +11121,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 庚申(猴)
  、八专
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月初二
+SUMMARY:农历五月初二 | 🌧️19~30°C
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 UID:lunar-huangli-20260616@github.com
@@ -11138,10 +11138,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 辛酉(鸡)
  死多因此，取定寅年使杀人，三丧不止皆由此，一人药
  毒二人身，家门田地皆退败，仓库金银化作尘。\n\n✨ 吉
  神宜趋：月德合、民日、敬安、除神、明堂、鸣吠\n⚠️
-  凶神宜忌：天罡、死神、天吏、致死、天贼、五离
+  凶神宜忌：天罡、死神、天吏、致死、天贼、五离\n\n
+ 🌤️ 丽水天气：小阵雨  19~30°C\n💧 湿度：70%　🌧️ 
+ 降雨概率：48%\n💨 风向风速：北偏东风 5 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月初三
+SUMMARY:农历五月初三 | 🌧️20~31°C
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
 UID:lunar-huangli-20260617@github.com
@@ -11160,10 +11162,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 壬戌(狗)
  耀大光华，只因造作田财旺，埋葬招疾哭黄沙，开门放
  水加官职，房房子孙见田加，婚姻许遁遭刑克，男女朝
  开幕落花。\n\n✨ 吉神宜趋：月空、三合、临日、时阴、
- 天仓、普护\n⚠️ 凶神宜忌：死气、地囊、天刑
+ 天仓、普护\n⚠️ 凶神宜忌：死气、地囊、天刑\n\n🌤️
+  丽水天气：局部阵雨  20~31°C\n💧 湿度：68%　🌧️ 降雨
+ 概率：17%\n💨 风向风速：南偏东风 4 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月初四
+SUMMARY:农历五月初四 | 🌧️22~29°C
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 UID:lunar-huangli-20260618@github.com
@@ -11180,7 +11184,9 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 癸亥(猪)
  ，狂颠风疾入黄泉，开门放水招财帛，牛马猪羊旺莫言
  ，贵人田塘来入宅，儿孙兴旺有余钱。\n\n✨ 吉神宜趋：
  五富、不将、福生\n⚠️ 凶神宜忌：劫煞、小耗、四废
- 、重日、朱雀
+ 、重日、朱雀\n\n🌤️ 丽水天气：局部阵雨  22~29°C\n💧 
+ 湿度：89%　🌧️ 降雨概率：24%\n💨 风向风速：南偏东
+ 风 3 km/h
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:农历五月初五 · 端午节
