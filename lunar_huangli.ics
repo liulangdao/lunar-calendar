@@ -11287,7 +11287,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 戊辰(龙)
  气、要安\n⚠️ 凶神宜忌：五虚、九空、天牢
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月初十 | ☀️25~32°C
+SUMMARY:农历五月初十
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 UID:lunar-huangli-20260624@github.com
@@ -11305,11 +11305,10 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 己巳(蛇)
  华增寿禄，库满仓盈自昌隆，埋葬文昌来照助，宅舍安
  宁不见凶，更有为官沾帝宠，婚姻龙子入龙宫。\n\n✨ 吉
  神宜趋：四相、王日、玉宇\n⚠️ 凶神宜忌：游祸、血
- 支、重日、元武\n\n🌤️ 丽水天气：雷暴伴大冰雹  25~32
- °C\n🌧️ 降雨概率：100%\n💨 风向风速：西偏南风 12 km/h
+ 支、重日、元武
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十一 | ☀️25~31°C
+SUMMARY:农历五月十一 | 🌧️24~29°C
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 UID:lunar-huangli-20260625@github.com
@@ -11327,11 +11326,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 庚午(马)
  ，起工修筑坟基地，堂前立见主人凶。\n\n✨ 吉神宜趋：
  阳德、官日、金堂、司命、鸣吠\n⚠️ 凶神宜忌：月建
  、小时、土府、月刑、月厌、地火、土符\n\n🌤️ 丽水
- 天气：雷暴伴大冰雹  25~31°C\n🌧️ 降雨概率：77%\n💨 
- 风向风速：北偏西风 14 km/h
+ 天气：中毛毛雨  24~29°C\n🌧️ 降雨概率：93%\n💨 风向
+ 风速：北风 12 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十二 | 🌧️24~32°C
+SUMMARY:农历五月十二 | 🌧️23~32°C
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 UID:lunar-huangli-20260626@github.com
@@ -11350,11 +11349,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 辛未(羊)
  有殃，田地消磨官失职，接运定是虎狼伤，嫁娶婚姻用
  此日，儿孙新妇守空房，埋葬若还用此日，当时害祸主
  重伤。\n\n✨ 吉神宜趋：月德合、守日、吉期、六合\n⚠
- ️ 凶神宜忌：勾陈\n\n🌤️ 丽水天气：中毛毛雨  24~32°C
- \n🌧️ 降雨概率：37%\n💨 风向风速：北偏东风 8 km/h
+ ️ 凶神宜忌：勾陈\n\n🌤️ 丽水天气：小毛毛雨  23~32°C
+ \n🌧️ 降雨概率：18%\n💨 风向风速：东北风 7 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十三 | 🌧️23~32°C
+SUMMARY:农历五月十三 | 🌧️22~33°C
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260628
 UID:lunar-huangli-20260627@github.com
@@ -11374,11 +11373,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 壬申(猴)
  祸重重，若是婚姻离别散，夜招浪子入房中，行船必定
  遭沉没，更生聋哑子孙穷。\n\n✨ 吉神宜趋：月空、相日
  、驿马、天后、天巫、福德、除神、青龙、鸣吠\n⚠️ 
- 凶神宜忌：五虚、五离\n\n🌤️ 丽水天气：小毛毛雨  23~
- 32°C\n🌧️ 降雨概率：37%\n💨 风向风速：东风 8 km/h
+ 凶神宜忌：五虚、五离\n\n🌤️ 丽水天气：中毛毛雨  22~
+ 33°C\n🌧️ 降雨概率：24%\n💨 风向风速：东风 13 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十四 | ☁️21~34°C
+SUMMARY:农历五月十四 | 🌧️22~34°C
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260629
 UID:lunar-huangli-20260628@github.com
@@ -11396,11 +11395,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 癸酉(鸡)
  官进职拜君王，嫁娶嫦娥至月殿，三年抱子至朝堂。\n\n
  ✨ 吉神宜趋：民日、不将、敬安、除神、明堂、鸣吠\n
  ⚠️ 凶神宜忌：天罡、死神、天吏、致死、天贼、五离\
- n\n🌤️ 丽水天气：阴  21~34°C\n🌧️ 降雨概率：51%\n💨 
- 风向风速：东风 9 km/h
+ n\n🌤️ 丽水天气：小毛毛雨  22~34°C\n🌧️ 降雨概率：4
+ 3%\n💨 风向风速：东风 7 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十五 | ☀️25~30°C
+SUMMARY:农历五月十五 | ☀️23~27°C
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 UID:lunar-huangli-20260629@github.com
@@ -11418,11 +11417,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 甲戌(狗)
  此日，子死儿亡泪满胸，三年之内连遭祸，事事教君没
  始终。\n\n✨ 吉神宜趋：三合、临日、时阴、天仓、不将
  、普护\n⚠️ 凶神宜忌：死气、天刑\n\n🌤️ 丽水天气
- ：雷暴伴小冰雹  25~30°C\n🌧️ 降雨概率：78%\n💨 风向
- 风速：东偏北风 5 km/h
+ ：雷暴  23~27°C\n🌧️ 降雨概率：90%\n💨 风向风速：东
+ 北风 4 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十六 | ☀️25~31°C
+SUMMARY:农历五月十六 | ☀️24~33°C
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 UID:lunar-huangli-20260630@github.com
@@ -11441,11 +11440,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 乙亥(猪)
  葬若能依此日，男清女正子孙兴，开门放水招田宅，代
  代公侯远播名。\n\n✨ 吉神宜趋：五富、不将、福生\n⚠
  ️ 凶神宜忌：劫煞、小耗、重日、朱雀\n\n🌤️ 丽水天
- 气：雷暴  25~31°C\n🌧️ 降雨概率：71%\n💨 风向风速：
- 东北风 3 km/h
+ 气：雷暴  24~33°C\n🌧️ 降雨概率：81%\n💨 风向风速：
+ 西北风 11 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十七 · 建党节 | ☀️25~31°C
+SUMMARY:农历五月十七 · 建党节 | 🌧️25~31°C
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 UID:lunar-huangli-20260701@github.com
@@ -11463,11 +11462,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 丙子(鼠)
  金银谷满仓，福荫高官加禄位，六亲丰禄乐安康。\n\n✨ 
  吉神宜趋：月德、六仪、解神、金匮、鸣吠对\n⚠️ 凶
  神宜忌：月破、大耗、灾煞、天火、厌对、招摇、四忌
- 、七鸟、五虚、触水龙\n\n🌤️ 丽水天气：雷暴  25~31°C\
- n🌧️ 降雨概率：42%\n💨 风向风速：东偏北风 5 km/h
+ 、七鸟、五虚、触水龙\n\n🌤️ 丽水天气：小毛毛雨  25~
+ 31°C\n🌧️ 降雨概率：51%\n💨 风向风速：东北风 6 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十八 | ☁️25~35°C
+SUMMARY:农历五月十八 | ☁️25~36°C
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 UID:lunar-huangli-20260702@github.com
@@ -11485,11 +11484,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 丁丑(牛)
  堂修筑贵富来，开门放水招牛马，旺蚕男女主和谐，遇
  此吉宿来照护，时支福庆永无灾。\n\n✨ 吉神宜趋：阴德
  、圣心、宝光\n⚠️ 凶神宜忌：月煞、月虚、月害、复
- 日\n\n🌤️ 丽水天气：阴  25~35°C\n🌧️ 降雨概率：27%\n
- 💨 风向风速：西风 12 km/h
+ 日\n\n🌤️ 丽水天气：阴  25~36°C\n🌧️ 降雨概率：25%\n
+ 💨 风向风速：西偏南风 19 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月十九 | ☁️26~36°C
+SUMMARY:农历五月十九 | ☁️25~36°C
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 UID:lunar-huangli-20260703@github.com
@@ -11507,11 +11506,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 戊寅(虎)
  娶婚姻皆自损，金银财谷渐无之，若是开门并放水，牛
  猪羊马亦伤悲。\n\n✨ 吉神宜趋：母仓、月恩、四相、三
  合、天马、天喜、天医、益后、五合\n⚠️ 凶神宜忌：
- 大煞、归忌、白虎\n\n🌤️ 丽水天气：阴  26~36°C\n🌧️ 
- 降雨概率：47%\n💨 风向风速：西风 14 km/h
+ 大煞、归忌、白虎\n\n🌤️ 丽水天气：阴  25~36°C\n🌧️ 
+ 降雨概率：42%\n💨 风向风速：西偏南风 14 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月二十 | ☁️26~37°C
+SUMMARY:农历五月二十 | ☀️26~36°C
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 UID:lunar-huangli-20260704@github.com
@@ -11529,11 +11528,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 己卯(兔)
  门放水用此日，全家财散主离乡。\n\n✨ 吉神宜趋：天恩
  、母仓、四相、续世、五合、玉堂\n⚠️ 凶神宜忌：河
  魁、大时、大败、咸池、九坎、九焦、血忌、往亡\n\n🌤
- ️ 丽水天气：阴  26~37°C\n🌧️ 降雨概率：35%\n💨 风向
- 风速：西偏南风 14 km/h
+ ️ 丽水天气：雷暴  26~36°C\n🌧️ 降雨概率：43%\n💨 风
+ 向风速：西南风 16 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月廿一 | ☀️26~36°C
+SUMMARY:农历五月廿一 | ☀️25~38°C
 DTSTART;VALUE=DATE:20260705
 DTEND;VALUE=DATE:20260706
 UID:lunar-huangli-20260705@github.com
@@ -11551,11 +11550,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 庚辰(龙)
  礼节，儿孙媳妇伴人床，开门放水遭灾祸，虎咬蛇伤又
  卒亡，三三五五连年病，家破人亡不可当。\n\n✨ 吉神宜
  趋：天恩、时德、时阳、生气、要安\n⚠️ 凶神宜忌：
- 五虚、九空、天牢\n\n🌤️ 丽水天气：雷暴  26~36°C\n🌧
- ️ 降雨概率：47%\n💨 风向风速：东北风 6 km/h
+ 五虚、九空、天牢\n\n🌤️ 丽水天气：雷暴  25~38°C\n🌧
+ ️ 降雨概率：43%\n💨 风向风速：东北风 5 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月廿二 | ☀️26~38°C
+SUMMARY:农历五月廿二 | ☀️26~39°C
 DTSTART;VALUE=DATE:20260706
 DTEND;VALUE=DATE:20260707
 UID:lunar-huangli-20260706@github.com
@@ -11574,11 +11573,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 甲午(马)月 辛巳(蛇)
  永不还，埋葬若还逢此日，周年百日取高堂，三年两载
  一悲伤，开门放水到官堂。\n\n✨ 吉神宜趋：月德合、天
  恩、王日、玉宇\n⚠️ 凶神宜忌：游祸、血支、重日、
- 元武\n\n🌤️ 丽水天气：雷暴伴大冰雹  26~38°C\n🌧️ 降
- 雨概率：31%\n💨 风向风速：北偏西风 4 km/h
+ 元武\n\n🌤️ 丽水天气：雷暴  26~39°C\n🌧️ 降雨概率：
+ 39%\n💨 风向风速：东风 10 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月廿三 · 小暑 | ☀️26~37°C
+SUMMARY:农历五月廿三 · 小暑 | ☀️25~38°C
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
 UID:lunar-huangli-20260707@github.com
@@ -11596,11 +11595,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 壬午(马)
  秋，开门放水招财帛，和合婚姻生贵儿，埋葬若能依此
  日，门庭兴旺福无休。\n\n✨ 吉神宜趋：天恩、官日、六
  合、不将、鸣吠\n⚠️ 凶神宜忌：天吏、致死、血支、
- 往亡、天牢\n\n🌤️ 丽水天气：雷暴  26~37°C\n🌧️ 降雨
- 概率：37%\n💨 风向风速：东南风 6 km/h
+ 往亡、天牢\n\n🌤️ 丽水天气：雷暴  25~38°C\n🌧️ 降雨
+ 概率：51%\n💨 风向风速：东偏南风 12 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月廿四 | ☀️26~38°C
+SUMMARY:农历五月廿四 | ☁️24~38°C
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 UID:lunar-huangli-20260708@github.com
@@ -11618,11 +11617,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 癸未(羊)
  家中诸事乐陶然，婚姻吉利主贵子，早播名誉著祖鞭。\n
  \n✨ 吉神宜趋：天恩、守日、不将、圣心\n⚠️ 凶神宜
  忌：月建、小时、土府、触水龙、元武\n\n🌤️ 丽水天
- 气：雷暴  26~38°C\n🌧️ 降雨概率：23%\n💨 风向风速：
- 东偏北风 5 km/h
+ 气：局部多云  24~38°C\n🌧️ 降雨概率：36%\n💨 风向风
+ 速：东偏南风 11 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月廿五 | ☀️0~0°C
+SUMMARY:农历五月廿五 | ☁️25~36°C
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 UID:lunar-huangli-20260709@github.com
@@ -11642,11 +11641,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 甲申(猴)
  祸，三年两次损儿郎。\n\n✨ 吉神宜趋：天德、月德、阳
  德、相日、吉期、不将、益后、除神、司命、鸣吠\n⚠️
   凶神宜忌：劫煞、天贼、五虚、八风、五离\n\n🌤️ 丽
- 水天气：晴  0~0°C\n🌧️ 降雨概率：41%\n💨 风向风速：
- 北风 0 km/h
+ 水天气：局部多云  25~36°C\n🌧️ 降雨概率：49%\n💨 风
+ 向风速：东偏南风 8 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历五月廿六
+SUMMARY:农历五月廿六 | ☀️0~0°C
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 UID:lunar-huangli-20260710@github.com
@@ -11664,7 +11663,9 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 乙酉(鸡)
  一家兄弟播高名，婚姻进益生贵子，玉帛金银箱满盈，
  放水开门皆吉利，男荣女贵寿康宁。\n\n✨ 吉神宜趋：民
  日、天巫、福德、天仓、不将、续世、除神、鸣吠\n⚠️
-  凶神宜忌：灾煞、天火、血忌、五离、勾陈
+  凶神宜忌：灾煞、天火、血忌、五离、勾陈\n\n🌤️ 丽
+ 水天气：晴  0~0°C\n🌧️ 降雨概率：55%\n💨 风向风速：
+ 北风 0 km/h
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:农历五月廿七 · 世界人口日
