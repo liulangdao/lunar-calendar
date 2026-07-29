@@ -12045,7 +12045,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 甲辰(龙)
  忌：天罡、五虚、八风、白虎
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月十七
+SUMMARY:农历六月十七 | 🌧️25~38°C
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 UID:lunar-huangli-20260730@github.com
@@ -12064,10 +12064,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 乙巳(蛇)
  贵富来，开门放水招牛马，旺蚕男女主和谐，遇此吉宿
  来照护，时支福庆永无灾。\n\n✨ 吉神宜趋：王日、驿马
  、天后、时阳、生气、福生、玉堂\n⚠️ 凶神宜忌：月
- 厌、地火、重日
+ 厌、地火、重日\n\n🌤️ 丽水天气：小毛毛雨  25~38°C\n
+ 🌧️ 降雨概率：94%\n💨 风向风速：南风 9 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月十八
+SUMMARY:农历六月十八 | 🌧️25~37°C
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 UID:lunar-huangli-20260731@github.com
@@ -12084,10 +12085,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 丙午(马)
  可推，家宅不安人口退，田蚕不利主人衰，嫁娶婚姻皆
  自损，金银财谷渐无之，若是开门并放水，牛猪羊马亦
  伤悲。\n\n✨ 吉神宜趋：官日、六合、鸣吠\n⚠️ 凶神宜
- 忌：天吏、致死、血支、往亡、天牢、逐阵
+ 忌：天吏、致死、血支、往亡、天牢、逐阵\n\n🌤️ 丽
+ 水天气：小毛毛雨  25~37°C\n🌧️ 降雨概率：76%\n💨 风
+ 向风速：西风 11 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月十九 · 建军节
+SUMMARY:农历六月十九 · 建军节 | 🌧️24~38°C
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 UID:lunar-huangli-20260801@github.com
@@ -12104,10 +12107,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 丁未(羊)
  嫌似虎狼，埋葬生灾逢鬼怪，颠邪疾病主瘟惶，为事遭
  官财失散，泻利留连不可当，开门放水用此日，全家财
  散主离乡。\n\n✨ 吉神宜趋：守日、圣心\n⚠️ 凶神宜忌
- ：月建、小时、土府、八专、元武、阳错
+ ：月建、小时、土府、八专、元武、阳错\n\n🌤️ 丽水
+ 天气：小毛毛雨  24~38°C\n🌧️ 降雨概率：92%\n💨 风向
+ 风速：北偏西风 8 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月二十
+SUMMARY:农历六月二十 | 🌧️24~38°C
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 UID:lunar-huangli-20260802@github.com
@@ -12125,10 +12130,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 戊申(猴)
  虎咬蛇伤又卒亡，三三五五连年病，家破人亡不可当。\n
  \n✨ 吉神宜趋：四相、阳德、相日、吉期、不将、益后
  、除神、司命\n⚠️ 凶神宜忌：劫煞、天贼、五虚、五
- 离
+ 离\n\n🌤️ 丽水天气：小毛毛雨  24~38°C\n🌧️ 降雨概率
+ ：65%\n💨 风向风速：南偏东风 4 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿一
+SUMMARY:农历六月廿一 | ☁️27~36°C
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 UID:lunar-huangli-20260803@github.com
@@ -12148,10 +12154,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 己酉(鸡)
  周年百日取高堂，三年两载一悲伤，开门放水到官堂。\n
  \n✨ 吉神宜趋：天德合、月德合、天恩、四相、民日、
  天巫、福德、天仓、续世、除神、鸣吠\n⚠️ 凶神宜忌
- ：灾煞、天火、血忌、复日、五离、勾陈
+ ：灾煞、天火、血忌、复日、五离、勾陈\n\n🌤️ 丽水
+ 天气：阴  27~36°C\n🌧️ 降雨概率：39%\n💨 风向风速：
+ 北偏西风 7 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿二
+SUMMARY:农历六月廿二 | ☁️27~38°C
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
 UID:lunar-huangli-20260804@github.com
@@ -12168,10 +12176,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 庚戌(狗)
  秋，开门放水招财帛，和合婚姻生贵儿，埋葬若能依此
  日，门庭兴旺福无休。\n\n✨ 吉神宜趋：月空、天恩、要
  安、青龙\n⚠️ 凶神宜忌：河魁、死神、月煞、月虚、
- 土符
+ 土符\n\n🌤️ 丽水天气：阴  27~38°C\n🌧️ 降雨概率：27%
+ \n💨 风向风速：东风 10 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿三
+SUMMARY:农历六月廿三 | ☀️25~39°C
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 UID:lunar-huangli-20260805@github.com
@@ -12190,10 +12199,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 辛亥(猪)
  来人口进，开门放水出英贤，埋葬招财官品进，家中诸
  事乐陶然，婚姻吉利主贵子，早播名誉著祖鞭。\n\n✨ 吉
  神宜趋：天恩、月恩、阴德、三合、时阴、六仪、玉宇
- 、明堂\n⚠️ 凶神宜忌：厌对、招摇、死气、重日
+ 、明堂\n⚠️ 凶神宜忌：厌对、招摇、死气、重日\n\n🌤
+ ️ 丽水天气：晴  25~39°C\n🌧️ 降雨概率：39%\n💨 风向
+ 风速：东偏南风 13 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿四
+SUMMARY:农历六月廿四 | 🌧️27~33°C
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 UID:lunar-huangli-20260806@github.com
@@ -12211,10 +12222,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 乙未(羊)月 壬子(鼠)
  两三伤，看看军令刑伤到，重重官事主瘟惶，开门放水
  遭灾祸，三年两次损儿郎。\n\n✨ 吉神宜趋：天恩、金堂
  、解神、鸣吠对\n⚠️ 凶神宜忌：月害、大时、大败、
- 咸池、小耗、四废、五虚、九坎、九焦、归忌、天刑
+ 咸池、小耗、四废、五虚、九坎、九焦、归忌、天刑\n\n
+ 🌤️ 丽水天气：小毛毛雨  27~33°C\n🌧️ 降雨概率：51%\
+ n💨 风向风速：东偏北风 18 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿五 · 立秋
+SUMMARY:农历六月廿五 · 立秋 | 🌧️26~38°C
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 UID:lunar-huangli-20260807@github.com
@@ -12231,10 +12244,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 丙申(猴)月 癸丑(牛)
  钱财百日进，一家兄弟播高名，婚姻进益生贵子，玉帛
  金银箱满盈，放水开门皆吉利，男荣女贵寿康宁。\n\n✨ 
  吉神宜趋：天德、天恩、母仓、四相、明堂\n⚠️ 凶神
- 宜忌：小耗、归忌、八专、触水龙
+ 宜忌：小耗、归忌、八专、触水龙\n\n🌤️ 丽水天气：
+ 小毛毛雨  26~38°C\n🌧️ 降雨概率：65%\n💨 风向风速：
+ 北偏东风 12 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿六
+SUMMARY:农历六月廿六 | 🌧️26~33°C
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 UID:lunar-huangli-20260808@github.com
@@ -12251,10 +12266,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 丙申(猴)月 甲寅(虎)
  此家富贵，三灾九祸不逢他，从此门前多吉庆，儿孙代
  代拜金阶。\n\n✨ 吉神宜趋：驿马、天后、圣心、解神、
  五合、鸣吠对\n⚠️ 凶神宜忌：月破、大耗、月刑、四
- 废、八专、天刑
+ 废、八专、天刑\n\n🌤️ 丽水天气：小毛毛雨  26~33°C\n
+ 🌧️ 降雨概率：64%\n💨 风向风速：北偏西风 18 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿七
+SUMMARY:农历六月廿七 | ☀️24~26°C
 DTSTART;VALUE=DATE:20260809
 DTEND;VALUE=DATE:20260810
 UID:lunar-huangli-20260809@github.com
@@ -12271,10 +12287,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 丙申(猴)月 乙卯(兔)
  重丧二日三人死，尽卖田园不记增，开门放水招灾祸，
  三岁孩儿白了头，婚姻不可逢此日，死别生离是可愁。\n
  \n✨ 吉神宜趋：益后、五合、鸣吠对\n⚠️ 凶神宜忌：
- 天吏、致死、四废、五虚、土符、朱雀、三阴
+ 天吏、致死、四废、五虚、土符、朱雀、三阴\n\n🌤️ 
+ 丽水天气：雷暴  24~26°C\n🌧️ 降雨概率：77%\n💨 风向
+ 风速：北风 34 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿八
+SUMMARY:农历六月廿八 | ☀️25~29°C
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 UID:lunar-huangli-20260810@github.com
@@ -12292,10 +12310,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 丙申(猴)月 丙辰(龙)
  官职，田蚕大熟永丰年，开门放水多吉庆，合家人口得
  安然，婚姻若得逢此日，生得孩儿福寿全。\n\n✨ 吉神宜
  趋：月空、母仓、三合、天喜、天医、续世、金匮\n⚠️
-  凶神宜忌：月厌、地火、四击、大煞、血忌
+  凶神宜忌：月厌、地火、四击、大煞、血忌\n\n🌤️ 丽
+ 水天气：雷暴  25~29°C\n🌧️ 降雨概率：77%\n💨 风向风
+ 速：东偏北风 19 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月廿九
+SUMMARY:农历六月廿九 | ☀️26~32°C
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 UID:lunar-huangli-20260811@github.com
@@ -12313,10 +12333,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 丙申(猴)月 丁巳(蛇)
  人，三丧不止皆由此，一人药毒二人身，家门田地皆退
  败，仓库金银化作尘。\n\n✨ 吉神宜趋：月德合、六合、
  五富、要安、宝光\n⚠️ 凶神宜忌：河魁、劫煞、地囊
- 、重日
+ 、重日\n\n🌤️ 丽水天气：雷暴  26~32°C\n🌧️ 降雨概率
+ ：78%\n💨 风向风速：东风 10 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历六月三十
+SUMMARY:农历六月三十 | 🌧️25~28°C
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
 UID:lunar-huangli-20260812@github.com
@@ -12334,10 +12355,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 丙申(猴)月 戊午(马)
  家，文星照耀大光华，只因造作田财旺，埋葬招疾哭黄
  沙，开门放水加官职，房房子孙见田加，婚姻许遁遭刑
  克，男女朝开幕落花。\n\n✨ 吉神宜趋：天德合、天马、
- 时阳、生气、不将、玉宇\n⚠️ 凶神宜忌：四耗、白虎
+ 时阳、生气、不将、玉宇\n⚠️ 凶神宜忌：四耗、白虎\n
+ \n🌤️ 丽水天气：中毛毛雨  25~28°C\n🌧️ 降雨概率：65
+ %\n💨 风向风速：东北风 5 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历七月初一
+SUMMARY:农历七月初一 | 🌧️24~31°C
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 UID:lunar-huangli-20260813@github.com
@@ -12355,10 +12378,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 丙申(猴)月 己未(羊)
  泉，开门放水招财帛，牛马猪羊旺莫言，贵人田塘来入
  宅，儿孙兴旺有余钱。\n\n✨ 吉神宜趋：母仓、金堂、玉
  堂\n⚠️ 凶神宜忌：月煞、月虚、血支、天贼、五虚、
- 八专
+ 八专\n\n🌤️ 丽水天气：小毛毛雨  24~31°C\n🌧️ 降雨概
+ 率：65%\n💨 风向风速：北偏东风 4 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历七月初二
+SUMMARY:农历七月初二 | ☀️0~0°C
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 UID:lunar-huangli-20260814@github.com
@@ -12376,7 +12400,9 @@ DESCRIPTION:📅 农历日期：丙午(马)年 丙申(猴)月 庚申(猴)
  儿孙代代近君王，开门放水须伤死，嫁娶夫妻不久长，
  修土筑墙伤产女，手扶双女泪汪汪。\n\n✨ 吉神宜趋：王
  日、天仓、除神、鸣吠\n⚠️ 凶神宜忌：月建、小时、
- 土府、复日、五离、八专、天牢、阳错
+ 土府、复日、五离、八专、天牢、阳错\n\n🌤️ 丽水天
+ 气：晴  0~0°C\n🌧️ 降雨概率：48%\n💨 风向风速：北风 
+ 0 km/h
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:农历七月初三
