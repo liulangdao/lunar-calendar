@@ -14586,7 +14586,7 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 乙巳(蛇)
  、重日、勾陈
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月二十
+SUMMARY:农历十月二十 | ☀️8~23°C
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 UID:lunar-huangli-20261128@github.com
@@ -14604,10 +14604,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 丙午(马)
  ，夫妇齐眉永保康，婚姻遇此家富贵，三灾九祸不逢他
  ，从此门前多吉庆，儿孙代代拜金阶。\n\n✨ 吉神宜趋：
  普护、青龙、鸣吠\n⚠️ 凶神宜忌：天吏、致死、四废
- 、五虚
+ 、五虚\n\n🌤️ 丽水天气：晴  8~23°C\n🌧️ 降雨概率：0
+ %\n💨 风向风速：西北风 12 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿一
+SUMMARY:农历十月廿一 | ☀️4~20°C
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 UID:lunar-huangli-20261129@github.com
@@ -14625,10 +14626,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 丁未(羊)
  三人死，尽卖田园不记增，开门放水招灾祸，三岁孩儿
  白了头，婚姻不可逢此日，死别生离是可愁。\n\n✨ 吉神
  宜趋：三合、临日、天喜、天医、六仪、福生、明堂\n⚠
- ️ 凶神宜忌：厌对、招摇、四击、往亡、八专
+ ️ 凶神宜忌：厌对、招摇、四击、往亡、八专\n\n🌤️ 
+ 丽水天气：晴  4~20°C\n🌧️ 降雨概率：0%\n💨 风向风速
+ ：东偏北风 12 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿二
+SUMMARY:农历十月廿二 | ☁️4~22°C
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 UID:lunar-huangli-20261130@github.com
@@ -14645,10 +14648,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 戊申(猴)
  官职，田蚕大熟永丰年，开门放水多吉庆，合家人口得
  安然，婚姻若得逢此日，生得孩儿福寿全。\n\n✨ 吉神宜
  趋：母仓、除神\n⚠️ 凶神宜忌：天罡、劫煞、月害、
- 地囊、五离、天刑
+ 地囊、五离、天刑\n\n🌤️ 丽水天气：局部多云  4~22°C\n
+ 🌧️ 降雨概率：0%\n💨 风向风速：北偏东风 5 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿三 · 世界艾滋病日
+SUMMARY:农历十月廿三 · 世界艾滋病日 | ☀️9~24°C
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 UID:lunar-huangli-20261201@github.com
@@ -14667,10 +14671,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 己酉(鸡)
  死多因此，取定寅年使杀人，三丧不止皆由此，一人药
  毒二人身，家门田地皆退败，仓库金银化作尘。\n\n✨ 吉
  神宜趋：月德、天恩、母仓、时阳、生气、圣心、除神
- 、鸣吠\n⚠️ 凶神宜忌：灾煞、天火、五离、朱雀
+ 、鸣吠\n⚠️ 凶神宜忌：灾煞、天火、五离、朱雀\n\n🌤
+ ️ 丽水天气：雾  9~24°C\n🌧️ 降雨概率：0%\n💨 风向风
+ 速：北风 6 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿四
+SUMMARY:农历十月廿四 | ☀️13~20°C
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 UID:lunar-huangli-20261202@github.com
@@ -14688,10 +14694,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 庚戌(狗)
  沙，开门放水加官职，房房子孙见田加，婚姻许遁遭刑
  克，男女朝开幕落花。\n\n✨ 吉神宜趋：天德合、月空、
  天恩、益后、金匮\n⚠️ 凶神宜忌：月煞、月虚、血支
- 、五虚
+ 、五虚\n\n🌤️ 丽水天气：雾  13~20°C\n🌧️ 降雨概率：
+ 53%\n💨 风向风速：西北风 8 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿五 · 世界残疾人日
+SUMMARY:农历十月廿五 · 世界残疾人日 | 🌧️14~26°C
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 UID:lunar-huangli-20261203@github.com
@@ -14708,10 +14715,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 辛亥(猪)
  防惊卒死，狂颠风疾入黄泉，开门放水招财帛，牛马猪
  羊旺莫言，贵人田塘来入宅，儿孙兴旺有余钱。\n\n✨ 吉
  神宜趋：天恩、王日、续世、宝光\n⚠️ 凶神宜忌：月
- 建、小时、土府、月刑、九坎、九焦、血忌、重日
+ 建、小时、土府、月刑、九坎、九焦、血忌、重日\n\n🌤
+ ️ 丽水天气：大毛毛雨  14~26°C\n🌧️ 降雨概率：42%\n
+ 💨 风向风速：北偏西风 5 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿六
+SUMMARY:农历十月廿六 | ☀️16~28°C
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 UID:lunar-huangli-20261204@github.com
@@ -14731,10 +14740,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 壬子(鼠)
  门放水须伤死，嫁娶夫妻不久长，修土筑墙伤产女，手
  扶双女泪汪汪。\n\n✨ 吉神宜趋：天恩、官日、天马、吉
  期、要安、鸣吠对\n⚠️ 凶神宜忌：大时、大败、咸池
- 、四忌、六蛇、复日、白虎、岁薄
+ 、四忌、六蛇、复日、白虎、岁薄\n\n🌤️ 丽水天气：
+ 雾  16~28°C\n🌧️ 降雨概率：6%\n💨 风向风速：北风 6 km/
+ h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿七
+SUMMARY:农历十月廿七 | 🌧️18~29°C
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 UID:lunar-huangli-20261205@github.com
@@ -14753,10 +14764,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 癸丑(牛)
  有棒刑宜谨慎，妇人随客走盘桓。\n\n✨ 吉神宜趋：天恩
  、守日、天巫、福德、玉宇、玉堂\n⚠️ 凶神宜忌：月
  厌、地火、九空、大煞、归忌、八专、触水龙、了戾、
- 阴错
+ 阴错\n\n🌤️ 丽水天气：小毛毛雨  18~29°C\n🌧️ 降雨概
+ 率：3%\n💨 风向风速：东风 3 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿八
+SUMMARY:农历十月廿八 | ☀️18~29°C
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 UID:lunar-huangli-20261206@github.com
@@ -14776,10 +14788,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 己亥(猪)月 甲寅(虎)
  殊难度，放水开门天命伤。\n\n✨ 吉神宜趋：月德、四相
  、时德、相日、六合、五富、金堂、五合、鸣吠对\n⚠️
   凶神宜忌：河魁、死神、游祸、五虚、八风、八专、天
- 牢
+ 牢\n\n🌤️ 丽水天气：雾  18~29°C\n🌧️ 降雨概率：18%\n
+ 💨 风向风速：北风 7 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月廿九 · 大雪
+SUMMARY:农历十月廿九 · 大雪 | 🌧️12~24°C
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 UID:lunar-huangli-20261207@github.com
@@ -14796,10 +14809,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 庚子(鼠)月 乙卯(兔)
  代代为官近帝前，开门放水招财帛，婚姻和合福绵绵，
  田蚕人满仓库满，百般顺意自安然。\n\n✨ 吉神宜趋：四
  相、民日、五合、玉堂、鸣吠对\n⚠️ 凶神宜忌：天罡
- 、死神、月刑、天吏、致死、天贼
+ 、死神、月刑、天吏、致死、天贼\n\n🌤️ 丽水天气：
+ 中毛毛雨  12~24°C\n🌧️ 降雨概率：51%\n💨 风向风速：
+ 北偏东风 10 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历十月三十
+SUMMARY:农历十月三十 | 🌧️9~15°C
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 UID:lunar-huangli-20261208@github.com
@@ -14816,10 +14831,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 庚子(鼠)月 丙辰(龙)
  堂，三年二载见瘟惶，埋葬若还逢此日，子孙必定走他
  乡，婚姻此日不宜利，归家定是不相当，开门放水家须
  破，少女恋花贪外郎。\n\n✨ 吉神宜趋：月空、三合、临
- 日、时阴、天仓、圣心\n⚠️ 凶神宜忌：死气、天牢
+ 日、时阴、天仓、圣心\n⚠️ 凶神宜忌：死气、天牢\n\n
+ 🌤️ 丽水天气：小阵雨  9~15°C\n🌧️ 降雨概率：55%\n
+ 💨 风向风速：北风 10 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历冬月初一
+SUMMARY:农历冬月初一 | 🌧️9~10°C
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 UID:lunar-huangli-20261209@github.com
@@ -14836,10 +14853,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 庚子(鼠)月 丁巳(蛇)
  自昌隆，埋葬文昌来照助，宅舍安宁不见凶，更有为官
  沾帝宠，婚姻龙子入龙宫。\n\n✨ 吉神宜趋：月德合、五
  富、不将、益后\n⚠️ 凶神宜忌：劫煞、小耗、四废、
- 重日、元武
+ 重日、元武\n\n🌤️ 丽水天气：中毛毛雨  9~10°C\n🌧️ 
+ 降雨概率：48%\n💨 风向风速：北偏西风 11 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历冬月初二
+SUMMARY:农历冬月初二 | ☁️9~16°C
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 UID:lunar-huangli-20261210@github.com
@@ -14856,10 +14874,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 庚子(鼠)月 戊午(马)
  见君王，惟有埋葬不可用，三年之后主瘟疫，起工修筑
  坟基地，堂前立见主人凶。\n\n✨ 吉神宜趋：阳德、六仪
  、续世、解神、司命\n⚠️ 凶神宜忌：月破、大耗、灾
- 煞、天火、厌对、招摇、五虚、血忌
+ 煞、天火、厌对、招摇、五虚、血忌\n\n🌤️ 丽水天气
+ ：阴  9~16°C\n🌧️ 降雨概率：39%\n💨 风向风速：北偏东
+ 风 8 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历冬月初三
+SUMMARY:农历冬月初三 | 🌧️11~18°C
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 UID:lunar-huangli-20261211@github.com
@@ -14877,10 +14897,11 @@ DESCRIPTION:📅 农历日期：丙午(马)年 庚子(鼠)月 己未(羊)
  失职，接运定是虎狼伤，嫁娶婚姻用此日，儿孙新妇守
  空房，埋葬若还用此日，当时害祸主重伤。\n\n✨ 吉神宜
  趋：要安\n⚠️ 凶神宜忌：月煞、月虚、月害、四击、
- 八专、勾陈
+ 八专、勾陈\n\n🌤️ 丽水天气：大毛毛雨  11~18°C\n🌧️ 
+ 降雨概率：33%\n💨 风向风速：北风 6 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历冬月初四
+SUMMARY:农历冬月初四 | 🌧️6~22°C
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 UID:lunar-huangli-20261212@github.com
@@ -14897,10 +14918,12 @@ DESCRIPTION:📅 农历日期：丙午(马)年 庚子(鼠)月 庚申(猴)
  若是婚姻离别散，夜招浪子入房中，行船必定遭沉没，
  更生聋哑子孙穷。\n\n✨ 吉神宜趋：母仓、三合、天喜、
  天医、玉宇、除神、青龙、鸣吠\n⚠️ 凶神宜忌：九坎
- 、九焦、土符、大煞、五离、八专
+ 、九焦、土符、大煞、五离、八专\n\n🌤️ 丽水天气：
+ 小阵雨  6~22°C\n🌧️ 降雨概率：45%\n💨 风向风速：北风
+  4 km/h
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:农历冬月初五
+SUMMARY:农历冬月初五 | 🌧️6~8°C
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 UID:lunar-huangli-20261213@github.com
@@ -14918,7 +14941,9 @@ DESCRIPTION:📅 农历日期：丙午(马)年 庚子(鼠)月 辛酉(鸡)
  招外处田庄宅，荣华富贵福禄康，埋葬若然用此日，高
  官进职拜君王，嫁娶嫦娥至月殿，三年抱子至朝堂。\n\n
  ✨ 吉神宜趋：母仓、金堂、除神、明堂、鸣吠\n⚠️ 凶
- 神宜忌：河魁、大时、大败、咸池、四耗、地囊、五离
+ 神宜忌：河魁、大时、大败、咸池、四耗、地囊、五离\n
+ \n🌤️ 丽水天气：小雨  6~8°C\n🌧️ 降雨概率：56%\n💨 
+ 风向风速：西北风 3 km/h
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:农历冬月初六
